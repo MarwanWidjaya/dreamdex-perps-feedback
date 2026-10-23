@@ -1,0 +1,10 @@
+{
+  "network": "Somnia Hideki testnet (Tokyo)",
+  "chainId": 50383,
+  "walletAddress": "0xB524da94D78Ea479397f529CdC24e4dE93709316",
+  "startedAt": "2026-10-23T18:09:25.554Z",
+  "steps": [],
+  "status": "error",
+  "error": "TimeoutError: The request took too long to respond.\n\nURL: https://api.hideki2.infra.testnet.somnia.network/\nRequest body: {\"method\":\"eth_chainId\"}\n\nDetails: The request timed out.\nVersion: viem@2.57.10",
+  "finishedAt": "2026-10-23T18:10:06.643Z"
+}
