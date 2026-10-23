@@ -1,0 +1,62 @@
+{
+  "source": "Blockscout explorer API (GET) for Somnia Tokyo testnet",
+  "explorerApi": "https://explorer.testnet.somnia.network/tokyo/api/v2",
+  "chainId": 50383,
+  "readAt": "2026-10-23T18:09:15.690Z",
+  "chain": {
+    "totalBlocks": "31268849",
+    "transactionsToday": "5937333",
+    "averageBlockTimeMs": 100,
+    "gasPricesGwei": {
+      "slow": 6,
+      "average": 6,
+      "fast": 6
+    }
+  },
+  "wallet": {
+    "address": "0xB524da94D78Ea479397f529CdC24e4dE93709316",
+    "nativeBalanceWei": "0",
+    "nativeBalanceStt": "0",
+    "balanceUpdatedAtBlock": 31268858,
+    "tokenBalances": []
+  },
+  "contracts": {
+    "marginBank": {
+      "address": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+      "isContract": true,
+      "hasLogs": true
+    },
+    "perpPoolFactory": {
+      "address": "0xE631fAEE547baeE07353E290f0562ea67d856560",
+      "isContract": true,
+      "hasLogs": true,
+      "logCountOnFirstPage": 48,
+      "eventTopicHistogram": {
+        "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b": 3,
+        "0x4c7ab449ff4eff3a286d341b5b1bfef815b0c81fa3e4874a469388ee6f9cc06f": 21,
+        "0xa5785e0b57853c98bbfa28afa08f5f9fe215563485e2f68f6e19d4d1eb524c86": 21,
+        "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 1,
+        "0xb005081905f3681bd2508eb34b0b21cd12f24c2390d86332dbcc885c29dff291": 1,
+        "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": 1
+      }
+    },
+    "usdsoCollateral": {
+      "address": "0xed7993A74dAe1e6656B704A424DcD8711aAf4F72",
+      "token": {
+        "address_hash": "0xed7993A74dAe1e6656B704A424DcD8711aAf4F72",
+        "address": "0xed7993A74dAe1e6656B704A424DcD8711aAf4F72",
+        "name": "USDso",
+        "symbol": "USDso",
+        "decimals": "18",
+        "type": "ERC-20",
+        "total_supply": "1001014730320609828721804227610",
+        "holders_count": "1955",
+        "exchange_rate": null,
+        "circulating_market_cap": null,
+        "volume_24h": null,
+        "icon_url": null,
+        "reputation": "ok"
+      }
+    }
+  }
+}
